@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  font-family: 'Verdana', sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*header
+===================*/
+
+header{
+  left: 0;
+  right: 0;
+}
+
+/*hero-home
+===================*/
+.home-hero {
+  background-image: url("images/background.png");
+  background-size: cover;
+  padding: 5em 0;
+}
+.home-hero h1{
+  color: #fff;
+  margin-bottom: 3em;
+}
+.home-hero h2{
+  color: #fff;
+  font-size: 3em;
+}
+.home-hero h3{
+  color: #88fea7;
+  font-size: 2em;
+}
+
+/*keychains
+===================*/
+.key-chains ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.key-chains li {
+  display: inline-block;
+  margin: 2em;
+  margin-left: 3em;
+}
+.keychain3 {
+  margin-left: 100px;
+}
+.key-chains h1{
+  margin-bottom: 50px;
+}
+
+/*buttons
+===================*/
+a {
+  font-weight: 900;
+  font-size: 1.5em;
+  word-spacing: .01em;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #88fea7;
+  padding: 1em 2em;
+}
+a:hover, a:focus {
+  color: grey;
+}
+
+/*footer
+===================*/
+footer {
+  background-color: grey;
+  padding: 3em;
+  margin-top: 4em;
+}
